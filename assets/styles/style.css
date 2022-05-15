@@ -16,7 +16,7 @@
 
 /* BASICS */
 .flux{
-    margin: 0 80px;
+    margin: 0 60px;
 }
 
 p{
@@ -52,12 +52,13 @@ header{
 .bottom_header{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 60px;
 }
 
+
 .bottom_right_header img{
-    width : 50em;
+    width : 48em;
     height : auto;
 }
 
@@ -111,9 +112,9 @@ section{
 }
 
 .frame div{
-    padding: 50px 80px;
+    padding: 50px 70px;
 }
 
 .frame img{
-    padding: 50px 80px;
+    padding: 50px 70px;
 }
