@@ -127,6 +127,17 @@ footer{
 
 }
 
+.img_footer{
+    display: block;
+    height: 100%;
+    margin-right: 10px;
+}
+
+.img_footer_logo{
+    display: block;
+    height: 20%;
+}
+
 footer p{
     color: var(--white);
     font-size: 14px;
@@ -147,6 +158,7 @@ footer p{
 .footer_div_row{
     display: flex;
     flex-direction: row;
+    margin-top: 20px;
 }
 
 
@@ -157,6 +169,7 @@ a{
     font-family: 'Open Sans';
     text-decoration: none;
     color: var(--white);
+    margin: 7px;
 }
 
 a:hover{
@@ -165,4 +178,14 @@ a:hover{
 
 a:visited{
     color: var(--white);
+}
+
+
+
+
+
+.attribution{
+    display: flex;
+    justify-content: end;
+    padding: 10px;
 }
