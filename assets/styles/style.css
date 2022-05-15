@@ -1,11 +1,81 @@
 *, *:before, *:after {
     box-sizing: border-box;
-    margin-block-end: 0;
-    margin-block-start: 0;
     padding: 0;
     margin: 0;
 }
 
+:root{
+    --white: #FFFFFF;
+    --black: hsl(192, 100%, 9%);
+    --gray: hsl(208, 11%, 55%);
+    --pink: hsl(322, 100%, 66%);
+    --pink-hover: #FF9BDB;
+    --header-bg: hsl(193, 100%, 96%);
+}
+
+.flux{
+    margin: 0 80px;
+}
+
+p{
+    font-family: 'Open Sans';
+    font-size: 18px;
+
+}
+
+h1{
+    font-family: 'Poppins';
+}
+
 header{
-    background-image: url("/assets/images/bg-hero-desktop.svg");;
+    display: flex;
+    flex-direction: column;
+    background-image: url("/assets/images/bg-hero-desktop.svg");
+    background-size: cover;
+    background-color: var(--header-bg);
+}
+
+.top_header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+.bottom_header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.bottom_right_header img{
+    width : 50em;
+    height : auto;
+}
+
+/* BUTTONS */
+button{
+    border: none;
+    border-radius: 50px;
+    padding: 10px 40px;
+    font-family: 'Open Sans';
+}
+
+.white-button{
+    background-color: var(--white) ;
+    color: var(--black);
+    filter: drop-shadow(0 0 0.20rem var(--gray));
+}
+.white-button:hover{
+    color: var(--gray);
+}
+
+.pink-button{
+    background-color: var(--pink);
+    color: var(--white);
+    margin-top: 30px;
+    filter: drop-shadow(0 0 0.20rem var(--pink));
+}
+.pink-button:hover{
+    background-color: var(--pink-hover);
 }
