@@ -94,6 +94,7 @@ button{
 /* SECTION */
 section{
     margin-top: 120px;
+    margin-bottom: 200px;
 }
 
 .section_img{
@@ -107,7 +108,7 @@ section{
     align-items: center;
     border: none;
     border-radius: 15px;
-    margin: 30px 80px;
+    margin: 30px 60px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -117,4 +118,51 @@ section{
 
 .frame img{
     padding: 50px 70px;
+}
+
+
+/* FOOTER */
+footer{
+    background-color: var(--black);
+
+}
+
+footer p{
+    color: var(--white);
+    font-size: 14px;
+}
+
+.footer_section{
+    padding: 30px 60px ;
+    padding-top: 120px;
+
+    display: flex;
+}
+
+.footer_div_column{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_div_row{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+/* LIEN */
+
+a{
+    font-family: 'Open Sans';
+    text-decoration: none;
+    color: var(--white);
+}
+
+a:hover{
+    border-bottom: 1px solid var(--white);
+}
+
+a:visited{
+    color: var(--white);
 }
