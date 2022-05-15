@@ -135,7 +135,6 @@ footer{
 
 .img_footer_logo{
     display: block;
-    height: 20%;
 }
 
 footer p{
@@ -148,6 +147,7 @@ footer p{
     padding-top: 120px;
 
     display: flex;
+    justify-content: space-evenly;
 }
 
 .footer_div_column{
@@ -161,6 +161,11 @@ footer p{
     margin-top: 20px;
 }
 
+.section4{
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+}
 
 .mediaFacebook{
     background: url("/assets/images/facebook.svg") no-repeat center;
