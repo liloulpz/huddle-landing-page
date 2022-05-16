@@ -124,7 +124,6 @@ section{
 /* FOOTER */
 footer{
     background-color: var(--black);
-
 }
 
 .img_footer{
@@ -228,10 +227,41 @@ footer p{
 } */
 
 
+/* COMPONENT */
+.component{
+    background-color: var(--white);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 15px;
+    margin: 30px 60px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+    width: 30em;
+    height: auto;
+    padding: 40px;
+}
 
 
+.bottom_component{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
 
 
+.parent {
+    position: relative;
+}
+
+.child {
+    position: absolute;
+    z-index: 1;
+    bottom: -1;
+}
 
 
 
@@ -264,3 +294,6 @@ a:visited{
     justify-content: end;
     padding: 10px;
 }
+
+
+
