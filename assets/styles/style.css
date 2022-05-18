@@ -297,3 +297,146 @@ a:visited{
 
 
 
+
+
+@media screen and (max-device-width: 375px) {
+
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* BASICS */
+    .flux{
+        margin: 0 25px;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+
+    p{
+        font-family: 'Open Sans';
+        font-size: 18px;
+    }
+
+    .logo_top{
+        width: 8em;
+        height: fit-content;
+    }
+
+    /* HEADER */
+    header{
+        display: flex;
+        flex-direction: column;
+        background-image: url("/assets/images/bg-hero-mobile.svg");
+        background-size: cover;
+        background-color: var(--header-bg);
+    }
+
+    .top_header{
+        margin-top: 30px;
+    }
+
+    .bottom_header{
+        display: flex;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+
+    .bottom_right_header{
+        padding: 30px;
+    }
+
+    .bottom_right_header img{
+        width : 20em;
+        height : auto;
+        margin-top: 70px;
+    }
+
+    .bottom_left_header{
+        text-align: center;
+        
+    }
+
+    .bottom_left_header p {
+        margin-bottom: 20px;
+    }
+
+    .frame{
+        display: flex;
+        flex-direction: column;
+        margin: 10px 15px;
+        text-align: center;
+    }
+
+    .frame div {
+        padding: 50px;
+    }
+
+
+    .frame p{
+        font-size: 12px;
+    }
+
+    .section_img{
+        width : 20em;
+        height : auto;
+    }
+
+    /* BUTTONS */
+    .pink-button{
+        margin-top: 10px;
+    }
+
+    button{
+        padding: 7px 40px;
+    }
+
+    .buttondiv{
+        display: flex;
+        justify-content: center;
+    }
+
+    .white-button{
+        padding: 5px 20px;
+    }
+
+
+
+    .footer_section{
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .attribution{
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+        padding: 0px;
+    }
+
+    .section4{
+        display: flex;
+        justify-content: start;
+    }
+
+
+    .component{
+        margin: 70px 30px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        width: 20em;
+        height: auto;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    
+    .bottom_component{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 150px;
+    }
+
+}
