@@ -376,12 +376,17 @@ a:visited{
 
 
     .frame p{
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .section_img{
-        width : 20em;
+        width : 25em;
         height : auto;
+    }
+
+    .reverse{
+        display: flex;
+        flex-direction: column-reverse;
     }
 
     /* BUTTONS */
