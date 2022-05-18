@@ -415,6 +415,7 @@ a:visited{
         flex-direction: column;
         justify-content: start;
         padding-left: 0;
+        padding-right: 0;
     }
 
     .attribution{
@@ -422,11 +423,6 @@ a:visited{
         display: flex;
         justify-content: center;
         padding: 0px;
-    }
-
-    .section4{
-        display: flex;
-        justify-content: start;
     }
 
 
@@ -482,5 +478,18 @@ a:visited{
         width: 10em;
     }
 
+    .section2{
+        margin-top: 50px;
+    }
 
+
+    .sectionmedia{
+       display: flex;
+       justify-content: center;
+    }
+
+    .section4 p{
+        display: flex;
+        justify-content: center;
+    }
 }
